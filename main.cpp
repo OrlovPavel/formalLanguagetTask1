@@ -1,7 +1,6 @@
 #include "SubstrAnalyser.h"
-#include <cassert>
 
-int main(int argc, char** argv) {
+int main() {
     stream_in_out(std::cin, std::cout);
     return 0;
 }
