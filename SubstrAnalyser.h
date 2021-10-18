@@ -1,5 +1,6 @@
 #ifndef TASK16STACK_SUBSTRANALYSER_H
 #define TASK16STACK_SUBSTRANALYSER_H
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -67,12 +68,6 @@ public:
 
 size_t find_max_substr(const std::string& reg_expr, const std::string& word);
 
-void stream_in_out() {
-    std::string regular_expr;
-    std::string word;
-    std::cin >> regular_expr >> word;
-    SubstrAnalyser helper(word);
-    std::cout << helper.findMaxSubstr(regular_expr);
-}
+void stream_in_out(std::istream& in, std::ostream& out);
 
 #endif //TASK16STACK_SUBSTRANALYSER_H

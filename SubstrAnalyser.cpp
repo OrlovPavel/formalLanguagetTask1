@@ -8,7 +8,7 @@ void SubstrAnalyser::Flags::make_empty() {
     is_empty = true;
 }
 
-SubstrAnalyser::Flags& SubstrAnalyser::Flags::operator|=(const SubstrAnalyser::Flags& other){
+SubstrAnalyser::Flags& SubstrAnalyser::Flags::operator|=(const SubstrAnalyser::Flags& other) {
     is_elem |= other.is_elem;
     is_pref |= other.is_pref;
     is_suf |= other.is_suf;
@@ -41,7 +41,8 @@ size_t SubstrAnalyser::get_substr_index(size_t len, size_t index) {
     return length_index[len] + index;
 }
 
-std::vector<SubstrAnalyser::Flags> SubstrAnalyser::unionEntryArr(const std::vector<Flags>& first, const std::vector<Flags>& second) const{
+std::vector<SubstrAnalyser::Flags>
+SubstrAnalyser::unionEntryArr(const std::vector<Flags>& first, const std::vector<Flags>& second) const {
     std::vector<Flags> result(substr_number);
     for (size_t i = 0; i < result.size(); ++i) {
         result[i] = first[i] | second[i];
@@ -166,8 +167,9 @@ std::vector<SubstrAnalyser::Flags> SubstrAnalyser::getEntryArray(const std::stri
 }
 
 SubstrAnalyser::SubstrAnalyser(const std::string& word) : word(word), length_index(word.size() + 1),
-                                                   substr_number(
-                                                           word.size() + word.size() * (word.size() - 1) / 2 + 1) {
+                                                          substr_number(
+                                                                  word.size() + word.size() * (word.size() - 1) / 2 +
+                                                                  1) {
     substrings.emplace_back("");
     length_index[0] = 0;
     length_index[1] = 1;
@@ -198,4 +200,12 @@ size_t SubstrAnalyser::findMaxSubstr(const std::string& regular_expr) {
 size_t find_max_substr(const std::string& reg_expr, const std::string& word) {
     SubstrAnalyser helper(word);
     return helper.findMaxSubstr(reg_expr);
+}
+
+void stream_in_out(std::istream& in, std::ostream& out) {
+    std::string regular_expr;
+    std::string word;
+    in >> regular_expr >> word;
+    SubstrAnalyser helper(word);
+    out << helper.findMaxSubstr(regular_expr);
 }
