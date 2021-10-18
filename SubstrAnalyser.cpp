@@ -53,13 +53,13 @@ SubstrAnalyser::unionEntryArr(const std::vector<Flags>& first, const std::vector
 void SubstrAnalyser::unionTop(std::stack<std::vector<Flags>>& operation_order) {
     if (operation_order.empty()) {
         std::cerr << "Missing argument for union.\n";
-        throw;
+        throw std::invalid_argument("Missing argument for union.\n");
     }
     std::vector<Flags> right = std::move(operation_order.top());
     operation_order.pop();
     if (operation_order.empty()) {
         std::cerr << "Missing argument for union.\n";
-        throw;
+        throw std::invalid_argument("Missing argument for union.\n");
     }
     std::vector<Flags> left = std::move(operation_order.top());
     operation_order.pop();
@@ -87,13 +87,13 @@ std::vector<SubstrAnalyser::Flags> SubstrAnalyser::concatenate(const std::vector
 void SubstrAnalyser::concatenateTop(std::stack<std::vector<Flags>>& operation_order) {
     if (operation_order.empty()) {
         std::cerr << "Missing argument for concatenation.\n";
-        throw;
+        throw std::invalid_argument("Missing argument for concatenation.\n");
     }
     std::vector<Flags> right = std::move(operation_order.top());
     operation_order.pop();
     if (operation_order.empty()) {
         std::cerr << "Missing argument for concatenation.\n";
-        throw;
+        throw std::invalid_argument("Missing argument for concatenation.\n");
     }
     std::vector<Flags> left = std::move(operation_order.top());
     operation_order.pop();
@@ -120,7 +120,7 @@ std::vector<SubstrAnalyser::Flags> SubstrAnalyser::closure(const std::vector<Fla
 void SubstrAnalyser::closureTop(std::stack<std::vector<Flags>>& operation_order) {
     if (operation_order.empty()) {
         std::cerr << "Missing argument for closure operation.\n";
-        throw;
+        throw std::invalid_argument("Missing argument for closure operation.\n");
     }
     std::vector<Flags> entry_arr = operation_order.top();
     operation_order.pop();
@@ -161,7 +161,7 @@ std::vector<SubstrAnalyser::Flags> SubstrAnalyser::getEntryArray(const std::stri
     }
     if (operation_order.size() != 1) {
         std::cerr << "Wrong format, too few operations.\n";
-        throw;
+        throw std::invalid_argument("Wrong format, too few operations.\n");
     }
     return operation_order.top();
 }

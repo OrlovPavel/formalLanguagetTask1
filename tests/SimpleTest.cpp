@@ -17,3 +17,58 @@ TEST_F(SimpleTest, test_answer) {
     out >> ans;
     ASSERT_EQ(ans, 6);
 }
+
+TEST_F(SimpleTest, test_few_operations_except) {
+    bool is_except = false;
+    try {
+        find_max_substr("ab+c.aba.*.bac.+.*", "babc");
+    } catch (std::invalid_argument&) {
+        is_except = true;
+    }
+    ASSERT_EQ(is_except, true);
+}
+
+TEST_F(SimpleTest, test_closure_except) {
+    bool is_except = false;
+    try {
+        find_max_substr("*", "babc");
+    } catch (std::invalid_argument&) {
+        is_except = true;
+    }
+    ASSERT_EQ(is_except, true);
+}
+
+
+TEST_F(SimpleTest, test_concat_except) {
+    bool is_except = false;
+    try {
+        find_max_substr("ab..", "babc");
+    } catch (std::invalid_argument&) {
+        is_except = true;
+    }
+    ASSERT_EQ(is_except, true);
+    is_except = false;
+    try {
+        find_max_substr(".", "babc");
+    } catch (std::invalid_argument&) {
+        is_except = true;
+    }
+    ASSERT_EQ(is_except, true);
+}
+
+TEST_F(SimpleTest, test_union_except) {
+    bool is_except = false;
+    try {
+        find_max_substr("ab++", "babc");
+    } catch (std::invalid_argument&) {
+        is_except = true;
+    }
+    ASSERT_EQ(is_except, true);
+    is_except = false;
+    try {
+        find_max_substr("+", "babc");
+    } catch (std::invalid_argument&) {
+        is_except = true;
+    }
+    ASSERT_EQ(is_except, true);
+}
