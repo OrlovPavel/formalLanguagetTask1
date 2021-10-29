@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FormalLanguageTask1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests">
+				<Option output="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests/fast">
+				<Option output="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FormalLanguageTask1">
+				<Option output="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/FormalLanguageTask1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 FormalLanguageTask1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FormalLanguageTask1/fast">
+				<Option output="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/FormalLanguageTask1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 FormalLanguageTask1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coverage_report">
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 coverage_report"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/SubstrAnalyser.cpp">
+			<Option target="Tests"/>
+			<Option target="FormalLanguageTask1"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/SubstrAnalyser.h">
+			<Option target="Tests"/>
+			<Option target="FormalLanguageTask1"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/main.cpp">
+			<Option target="FormalLanguageTask1"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/run_tests.cpp">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/tests/SimpleTest.cpp">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/tests/SimpleTest.h">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/../../../../usr/local/lib/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/../../../../usr/local/lib/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/../../../../usr/local/lib/cmake/GTest/GTestTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/../../../../usr/local/lib/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/pavel/CLionProjects/FormalLangTask1/cmake/CodeCoverage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

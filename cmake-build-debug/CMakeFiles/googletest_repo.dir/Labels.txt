@@ -1,0 +1,13 @@
+# Target labels
+ googletest_repo
+# Source files and their labels
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/googletest_repo
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/googletest_repo.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/googletest_repo-complete.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-build.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-configure.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-download.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-install.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-mkdir.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-patch.rule
+/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-update.rule

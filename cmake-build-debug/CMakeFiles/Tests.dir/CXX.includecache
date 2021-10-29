@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pavel/CLionProjects/FormalLangTask1/SubstrAnalyser.h
+iostream
+-
+string
+-
+vector
+-
+stack
+-
+
+/home/pavel/CLionProjects/FormalLangTask1/tests/SimpleTest.cpp
+SimpleTest.h
+/home/pavel/CLionProjects/FormalLangTask1/tests/SimpleTest.h
+gtest/gtest.h
+/home/pavel/CLionProjects/FormalLangTask1/tests/gtest/gtest.h
+../SubstrAnalyser.h
+/home/pavel/CLionProjects/FormalLangTask1/SubstrAnalyser.h
+iostream
+-
+
+/home/pavel/CLionProjects/FormalLangTask1/tests/SimpleTest.h
+gtest/gtest.h
+/home/pavel/CLionProjects/FormalLangTask1/tests/gtest/gtest.h
+

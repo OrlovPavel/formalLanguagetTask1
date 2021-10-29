@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -O0 -fprofile-arcs -ftest-coverage -g CMakeFiles/FormalLanguageTask1.dir/main.cpp.o CMakeFiles/FormalLanguageTask1.dir/SubstrAnalyser.cpp.o -o FormalLanguageTask1 

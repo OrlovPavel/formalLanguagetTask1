@@ -1,0 +1,1 @@
+cmd='/snap/clion/169/bin/cmake/linux/bin/cmake;-DCMAKE_INSTALL_PREFIX=/3rdparty;-DCMAKE_CXX_STANDARD=17;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

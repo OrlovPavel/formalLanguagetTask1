@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -O0 -fprofile-arcs -ftest-coverage --coverage -g  -fprofile-arcs -ftest-coverage CMakeFiles/tests-test.dir/SimpleTest.cpp.o CMakeFiles/tests-test.dir/__/main.cpp.o -o /bin/tests-test   -L/3rdparty/lib  -Wl,-rpath,/3rdparty/lib -lgtest_main -lgtest -lgmock -lpthread 
