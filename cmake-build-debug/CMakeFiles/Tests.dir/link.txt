@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -O0 -fprofile-arcs -ftest-coverage -g CMakeFiles/Tests.dir/run_tests.cpp.o CMakeFiles/Tests.dir/tests/SimpleTest.cpp.o CMakeFiles/Tests.dir/SubstrAnalyser.cpp.o -o Tests  /usr/local/lib/libgtest.a -lpthread 

@@ -1,6 +1,0 @@
-/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/FormalLangTask1.dir
-/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/Tests.dir
-/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/coverage_report.dir
-/home/pavel/CLionProjects/FormalLangTask1/cmake-build-debug/CMakeFiles/test.dir
